@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bwq="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.sunshine.app.DetailActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_share"
+        app:showAsAction="ifRoom"
+        android:title="Share"
+        bwq:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+</menu>
